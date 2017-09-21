@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleSize" format="dimension"/>
+    <attr name="titleColor" format="color"/>
+    <attr name="titleText" format="string"/>
+
+
+    <!--验证码View-->
+    <declare-styleable name="MyCustomView">
+        <attr name="titleSize"/>
+        <attr name="titleColor"/>
+        <attr name="titleText"/>
+    </declare-styleable>
+
+    <!--浪花View-->
+    <declare-styleable name="WaveView">
+        <attr name="waveCount" format="integer"/>
+        <attr name="waveWidth" format="integer"/>
+        <attr name="android.color" format="color"/>
+        <attr name="mode">
+            <enum name="circle" value="-1"/>
+            <enum name="triangle" value="-2"/>
+        </attr>
+    </declare-styleable>
+
+    <!--仪表盘View-->
+    <declare-styleable name="PanelView">
+            <attr name="arcColor" format="color"/>  
+                <attr name="arcWidth" format="dimension"/>  
+        <!--        <attr name="android:text"/>  -->
+                <attr name="tikeCount" format="integer"/>  
+                <attr name="pointerColor" format="color"/>  
+                <attr name="android:textSize"/> 
+    </declare-styleable>
+
+    <!--验证码发送器-->
+    <declare-styleable name="CheckCodeView">
+        <attr name="beforeColor" format="color"/>
+        <attr name="afterColor" format="color"/>
+        <attr name="text" format="string"/>
+        <attr name="viewWidth" format="dimension"/>
+        <attr name="viewHeight" format="dimension"/>
+    </declare-styleable>
+    
+    <!--五环中一环-->
+    <declare-styleable name="ColorCircleView">
+        <attr name="radius" format="dimension"/>
+        <attr name="stroke" format="dimension"/>
+        <attr name="color" format="color"/>
+    </declare-styleable>
+
+
+    <!--九宫格解锁-->
+
+    <declare-styleable name="LockView">
+        <attr name="lViewWidth" format="dimension"/>
+        <attr name="lViewHeight" format="dimension"/>
+        <attr name="pointColor" format="color"/>
+        <attr name="pointRadius" format="dimension"/>
+    </declare-styleable>
+
+</resources>

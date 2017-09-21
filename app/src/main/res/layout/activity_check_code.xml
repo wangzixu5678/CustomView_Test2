@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ftkj.customview_test.CheckCodeActivity">
+    <EditText
+        android:background="@null"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+<com.example.ftkj.customview_test.customview.CheckCodeView
+    android:layout_marginTop="10dp"
+    android:id="@+id/main_checkCode"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    app:text="获取验证码"
+    />
+</LinearLayout>

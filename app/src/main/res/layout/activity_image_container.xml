@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ftkj.customview_test.ImageContainerActivity">
+<com.example.ftkj.customview_test.customview.CustomImgContainer
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#AA333333">
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FF4444"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#63e73b"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#1828ff"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#c2b419"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"/>
+
+</com.example.ftkj.customview_test.customview.CustomImgContainer>
+</LinearLayout>

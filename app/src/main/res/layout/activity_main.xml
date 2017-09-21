@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f9cf1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ftkj.customview_test.PanelViewActivity">
+<com.example.ftkj.customview_test.customview.PanelView
+    android:id="@+id/main_panelView"
+    android:text="已完成"
+    android:textSize="20sp"
+    android:layout_marginTop="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <SeekBar
+        android:id="@+id/main_seekbar"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
