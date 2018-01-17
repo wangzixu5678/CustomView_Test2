@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ftkj.customview_test.SlidingMenuActivity">
+    <com.example.ftkj.customview_test.customview.SlidingMenu
+        android:id="@+id/main_slideingmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/sliding_left"/>
+        <include layout="@layout/sliding_content"/>
+    </com.example.ftkj.customview_test.customview.SlidingMenu>
+
+</FrameLayout>
