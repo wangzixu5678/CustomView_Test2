@@ -41,7 +41,11 @@ public class SlidingMenu extends ViewGroup {
         mContentView = getChildAt(1);
         LayoutParams params = mLeftView.getLayoutParams();
         mLeftWidth = params.width;
+
+
     }
+
+
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
@@ -51,6 +55,7 @@ public class SlidingMenu extends ViewGroup {
         mLeftView.measure(leftWidthMeasureSpec, heightMeasureSpec);
         mContentView.measure(widthMeasureSpec, heightMeasureSpec);
         setMeasuredDimension(widthMeasureSize, heightMeasureSize);
+
     }
 
     @Override
@@ -65,7 +70,6 @@ public class SlidingMenu extends ViewGroup {
             case MotionEvent.ACTION_DOWN:
                 mDownX = ev.getX();
                 mDownY = ev.getY();
-                Log.d("AAA", "onInterceptTouchEvent: " + mDownX +"==="+mDownY);
                 break;
             case MotionEvent.ACTION_MOVE:
                 float moveX = ev.getX();
@@ -88,7 +92,6 @@ public class SlidingMenu extends ViewGroup {
             case MotionEvent.ACTION_DOWN:
                 mDownX = event.getX();
                 mDownY = event.getY();
-                Log.d("AAA", "onTouchEvent: "+ mDownX +"==="+mDownY);
                 break;
             case MotionEvent.ACTION_MOVE:
                 float moveX = event.getX();
